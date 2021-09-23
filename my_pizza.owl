@@ -21,11 +21,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_125f3ed2_1ffa_40ed_b01a_7392509ebdb1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_125f3ed2_1ffa_40ed_b01a_7392509ebdb1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_f2623e0c_8e6b_4aaa_9ccc_2884b524df30"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ce0e1bf2_1fbd_45f9_928d_4a8fd9fcc347"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ec6c51ad_799b_4e53_9ab0_ba1820a86a24"/>
+        <rdfs:label xml:lang="en">serve</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_21b95b06_4e01_4910_9ef4_1ba362d7a6cc -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_21b95b06_4e01_4910_9ef4_1ba362d7a6cc">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_f2623e0c_8e6b_4aaa_9ccc_2884b524df30"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_df9e2473_604f_43e0_8a83_1c7e4a2f44a5"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_0fb2df15_e18c_4879_ad92_1227669fa651"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_45b1b1e4_9864_4c2c_a58b_ea92d335c074"/>
@@ -39,6 +54,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_23f46e05_7b4a_47ed_a485_01f696d3664d">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_e7aee5ac_c60c_4987_81c7_373cb552a066"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_7003e925_2231_4640_987e_2142d23be902"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_59a94ed7_4433_4c57_bea7_86db2687d375"/>
         <rdfs:label xml:lang="en">tem_picância</rdfs:label>
@@ -50,6 +67,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_45b1b1e4_9864_4c2c_a58b_ea92d335c074">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLObjectProperty_f2623e0c_8e6b_4aaa_9ccc_2884b524df30"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_df9e2473_604f_43e0_8a83_1c7e4a2f44a5"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_7003e925_2231_4640_987e_2142d23be902"/>
         <rdfs:label xml:lang="en">tem_cobertura</rdfs:label>
@@ -73,6 +92,52 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:label xml:lang="en">relational_property</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLDataProperty_08ffee4e_0e5c_411b_ac0a_5150a9085246 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLDataProperty_08ffee4e_0e5c_411b_ac0a_5150a9085246">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_2a894c10_1a62_4459_9bde_fc62554626d9"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+        <rdfs:label xml:lang="en">tem_nome</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLDataProperty_3c65d380_8818_4bfd_948b_704bce11c136 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLDataProperty_3c65d380_8818_4bfd_948b_704bce11c136">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_dc119b6e_e108_4c5b_8b23_353ead435e74"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">tem_teor_alcoolico</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -174,7 +239,7 @@
     <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_0fb2df15_e18c_4879_ad92_1227669fa651 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_0fb2df15_e18c_4879_ad92_1227669fa651">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_5f663a0b_009a_4210_824f_92e39f870b38"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_3847e321_aeb1_4c49_b42a_84bcaa940a62"/>
         <rdfs:label xml:lang="en">Pizza_base</rdfs:label>
     </owl:Class>
     
@@ -186,6 +251,26 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_2fa871a5_ec95_4bdb_ac5f_29b14d0bd3f9"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_5f663a0b_009a_4210_824f_92e39f870b38"/>
         <rdfs:label xml:lang="en">Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_2a894c10_1a62_4459_9bde_fc62554626d9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_2a894c10_1a62_4459_9bde_fc62554626d9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_5f663a0b_009a_4210_824f_92e39f870b38"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ec6c51ad_799b_4e53_9ab0_ba1820a86a24"/>
+        <rdfs:label xml:lang="en">Pessoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_2e13379d_de0f_4494_b265_13fcf35496c4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_2e13379d_de0f_4494_b265_13fcf35496c4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d3f8ad75_711c_4376_b425_0d85d4eb2e28"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_41205578_4ca1_4861_a1f4_6d3d6ef9ab25"/>
+        <rdfs:label xml:lang="en">Vinho_branco</rdfs:label>
     </owl:Class>
     
 
@@ -237,6 +322,35 @@
     
 
 
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_3847e321_aeb1_4c49_b42a_84bcaa940a62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_3847e321_aeb1_4c49_b42a_84bcaa940a62">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ec6c51ad_799b_4e53_9ab0_ba1820a86a24"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_dc119b6e_e108_4c5b_8b23_353ead435e74"/>
+        <rdfs:label xml:lang="en">Comida</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_38e88fde_5214_4ae4_b1f6_2e90e428940f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_38e88fde_5214_4ae4_b1f6_2e90e428940f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_dc119b6e_e108_4c5b_8b23_353ead435e74"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d3f8ad75_711c_4376_b425_0d85d4eb2e28"/>
+        <rdfs:label xml:lang="en">Cerveja</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_41205578_4ca1_4861_a1f4_6d3d6ef9ab25 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_41205578_4ca1_4861_a1f4_6d3d6ef9ab25">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d3f8ad75_711c_4376_b425_0d85d4eb2e28"/>
+        <rdfs:label xml:lang="en">Vinho_tinto</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_4fe9c5e0_e915_4b6b_a0ef_8212216cd112 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_4fe9c5e0_e915_4b6b_a0ef_8212216cd112">
@@ -256,6 +370,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_59a94ed7_4433_4c57_bea7_86db2687d375">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_1d9179ac_3715_4f67_aa86_0006cb0fc42d"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_74d4e575_87ec_4ef7_8a0d_25757a167135"/>
         <rdfs:label xml:lang="en">Valor_picância</rdfs:label>
     </owl:Class>
     
@@ -364,7 +479,7 @@
     <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_7003e925_2231_4640_987e_2142d23be902 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_7003e925_2231_4640_987e_2142d23be902">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_5f663a0b_009a_4210_824f_92e39f870b38"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_3847e321_aeb1_4c49_b42a_84bcaa940a62"/>
         <rdfs:label xml:lang="en">Pizza_cobertura</rdfs:label>
     </owl:Class>
     
@@ -414,6 +529,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Pizza_de_quatro_queijos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_74d4e575_87ec_4ef7_8a0d_25757a167135 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_74d4e575_87ec_4ef7_8a0d_25757a167135">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_1d9179ac_3715_4f67_aa86_0006cb0fc42d"/>
+        <rdfs:label xml:lang="en">Profissão</rdfs:label>
     </owl:Class>
     
 
@@ -650,6 +774,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ce0e1bf2_1fbd_45f9_928d_4a8fd9fcc347 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ce0e1bf2_1fbd_45f9_928d_4a8fd9fcc347">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_74d4e575_87ec_4ef7_8a0d_25757a167135"/>
+        <rdfs:label xml:lang="en">Garçon</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d19f26e3_b36a_4eaa_8d5b_aa5cbd64b28f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d19f26e3_b36a_4eaa_8d5b_aa5cbd64b28f">
@@ -691,6 +824,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d3f8ad75_711c_4376_b425_0d85d4eb2e28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d3f8ad75_711c_4376_b425_0d85d4eb2e28">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_dc119b6e_e108_4c5b_8b23_353ead435e74"/>
+        <rdfs:label xml:lang="en">Vinho</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d507818a_fc8c_471d_b9bd_0adb4747b03e -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_d507818a_fc8c_471d_b9bd_0adb4747b03e">
@@ -727,10 +869,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_dc119b6e_e108_4c5b_8b23_353ead435e74 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_dc119b6e_e108_4c5b_8b23_353ead435e74">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ec6c51ad_799b_4e53_9ab0_ba1820a86a24"/>
+        <rdfs:label xml:lang="en">Bebida</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_df9e2473_604f_43e0_8a83_1c7e4a2f44a5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_df9e2473_604f_43e0_8a83_1c7e4a2f44a5">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_5f663a0b_009a_4210_824f_92e39f870b38"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_3847e321_aeb1_4c49_b42a_84bcaa940a62"/>
         <rdfs:label xml:lang="en">Pizza</rdfs:label>
     </owl:Class>
     
@@ -772,6 +923,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cobertura_de_cebola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ec6c51ad_799b_4e53_9ab0_ba1820a86a24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_ec6c51ad_799b_4e53_9ab0_ba1820a86a24">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luiz/ontologies/2021/8/my_pizza#OWLClass_5f663a0b_009a_4210_824f_92e39f870b38"/>
+        <rdfs:label xml:lang="en">Comestiveis</rdfs:label>
     </owl:Class>
     
 
